@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\layout_activity_resultado.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\layout\\activity_resultado.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\drawable_borda_preta.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\drawable\\borda_preta.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-pngs-54:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.tictactoe.app-debug-58:/layout_activity_main.xml.flat",
+        "source": "com.tictactoe.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\layout_activity_jogo.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\layout\\activity_jogo.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\drawable_borda_arredondada.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\drawable\\borda_arredondada.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\drawable__97298.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\drawable\\_97298.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-debug-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.10.2\\com.tictactoe.app-main-60:\\xml\\backup_rules.xml"
+    }
+]
