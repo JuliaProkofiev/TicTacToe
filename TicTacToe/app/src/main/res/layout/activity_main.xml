@@ -5,15 +5,21 @@
     android:layout_height="match_parent">
 
     <!-- Fundo opaco -->
+
+    <!-- Título TIC TAC TOE -->
+
     <ImageView
         android:id="@+id/bgImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
         android:alpha="0.3"
         android:scaleType="centerCrop"
         android:src="@drawable/_97298" />
 
-    <!-- Título TIC TAC TOE -->
     <LinearLayout
         android:id="@+id/tituloContainer"
         android:layout_width="wrap_content"
@@ -48,13 +54,16 @@
     </LinearLayout>
 
     <!-- Botão “Com amigos” -->
+
     <Button
-        android:id="@+id/btnComAmigos"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn2Players"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Com amigos"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/tituloContainer"
-        android:layout_marginTop="80dp"
-        android:padding="16dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="-6dp"
+        android:padding="16dp"
+        android:text="2 players" />
+
 </RelativeLayout>

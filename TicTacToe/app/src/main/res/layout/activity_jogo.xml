@@ -1,28 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:background="#FFFFFF">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textTurno"
+    <!-- Fundo opaco -->
+
+    <!-- Título TIC TAC TOE -->
+
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/_97298" />
+
+    <LinearLayout
+        android:id="@+id/tituloContainer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Turno: Jogador 1"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:layout_marginBottom="24dp"/>
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
 
-    <GridLayout
-        android:id="@+id/gameGrid"
-        android:layout_width="wrap_content"
+        <TextView
+            android:text="TIC"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="TAC"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="TOE"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Botão “Com amigos” -->
+
+    <Button
+        android:id="@+id/btn2Players"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:rowCount="3"
-        android:columnCount="3"
-        android:padding="8dp">
-    </GridLayout>
-</LinearLayout>
+        android:layout_below="@id/tituloContainer"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="-6dp"
+        android:padding="16dp"
+        android:text="2 players" />
+
+</RelativeLayout>
