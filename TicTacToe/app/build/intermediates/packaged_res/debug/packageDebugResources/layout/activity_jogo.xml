@@ -28,7 +28,7 @@
         android:columnCount="3"
         android:alignmentMode="alignMargins"
         android:useDefaultMargins="true"
-        android:padding="8dp"
+        android:padding="10dp"
         android:background="@android:color/white"
         android:layout_gravity="center">
     </GridLayout>

@@ -1,16 +1,15 @@
 package com.tictactoe.app
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.os.Bundle
 import android.view.Gravity
-import android.view.View
 import android.widget.GridLayout
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 
-class JogoActivity : AppCompatActivity() {
+class JogoActivity : Activity() {
 
     private lateinit var grid: GridLayout
     private lateinit var turnoText: TextView
