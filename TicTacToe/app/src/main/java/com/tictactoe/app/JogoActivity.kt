@@ -1,5 +1,6 @@
 package com.tictactoe.app
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
@@ -17,6 +18,7 @@ class JogoActivity : AppCompatActivity() {
     private val tabuleiro = Array(3) { arrayOfNulls<TextView>(3) }
     private var jogadas = 0
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_jogo)
@@ -27,7 +29,7 @@ class JogoActivity : AppCompatActivity() {
         for (linha in 0 until 3) {
             for (coluna in 0 until 3) {
                 val cell = TextView(this)
-                cell.setBackgroundResource(R.drawable.borda_arredondada)
+                cell.setBackgroundResource(R.drawable.borda_preta)
                 cell.gravity = Gravity.CENTER
                 cell.textSize = 32f
                 cell.setTextColor(ContextCompat.getColor(this, android.R.color.black))
@@ -35,7 +37,7 @@ class JogoActivity : AppCompatActivity() {
                 val params = GridLayout.LayoutParams()
                 params.width = 200
                 params.height = 200
-                params.setMargins(8, 8, 8, 8)
+                params.setMargins(4, 4, 4, 4)
                 cell.layoutParams = params
 
                 grid.addView(cell)

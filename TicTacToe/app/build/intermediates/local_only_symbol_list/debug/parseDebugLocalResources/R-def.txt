@@ -24,6 +24,7 @@ layout activity_resultado
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string turno_jogador
 style Theme.TicTacToe
 xml backup_rules
 xml data_extraction_rules
