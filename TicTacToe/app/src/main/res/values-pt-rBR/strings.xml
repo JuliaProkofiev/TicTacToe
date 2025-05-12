@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jogo Da Velha</string>
+    <string name="tic">JOGO</string>
+    <string name="tac">DA</string>
+    <string name="toe">VELHA</string>
+    <string name="select_mode">Selecionar modo</string>
+    <string name="mode">2 Jogadores</string>
+    <string name="player_turn">Turno: Jogador %1$d (%2$s)</string>
+    <string name="play_again">Jogar novamente</string>
+    <string name="Turn">Turno Jogador 1</string>
+</resources>

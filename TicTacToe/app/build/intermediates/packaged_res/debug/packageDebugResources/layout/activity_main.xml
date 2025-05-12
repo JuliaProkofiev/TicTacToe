@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -14,9 +15,9 @@
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
-        android:alpha="0.3"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="7dp"
+        android:alpha="0.1"
         android:scaleType="centerCrop"
         android:src="@drawable/_97298" />
 
@@ -29,28 +30,36 @@
         android:layout_marginTop="100dp">
 
         <TextView
-            android:text="TIC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:letterSpacing="0"
+            android:lineSpacingMultiplier="0"
+            android:text="@string/tic"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="48sp"
-            android:textStyle="bold"
-            android:fontFamily="monospace"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textStyle="bold" />
 
         <TextView
-            android:text="TAC"
-            android:textSize="48sp"
-            android:textStyle="bold"
-            android:fontFamily="monospace"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/tac"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            android:textStyle="bold" />
 
         <TextView
-            android:text="TOE"
-            android:textSize="48sp"
-            android:textStyle="bold"
-            android:fontFamily="monospace"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/toe"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
     <!-- Botão “Com amigos” -->
@@ -61,9 +70,32 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tituloContainer"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="172dp"
-        android:layout_marginEnd="-6dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="-1dp"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="add"
         android:padding="16dp"
-        android:text="2 players" />
+        android:text="@string/mode"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnComAmigos"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="99dp"
+        android:alpha="100"
+        android:bufferType="normal"
+        android:cursorVisible="false"
+        android:fontFamily="@font/press_start_2p"
+        android:layerType="software"
+        android:rotationX="-2"
+        android:text="@string/select_mode"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#333232"
+        android:textSize="16sp" />
 
 </RelativeLayout>

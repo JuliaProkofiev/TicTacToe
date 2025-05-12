@@ -3,9 +3,9 @@
     android:id="@+id/layoutJogo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
     android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
     android:padding="16dp">
 
     <!-- MOSTRA A VEZ DO JOGADOR -->
@@ -13,26 +13,25 @@
         android:id="@+id/textTurno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Turno jogador 1"
+        android:layout_marginBottom="24dp"
+        android:background="#626161"
+        android:text="@string/Turn"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:layout_marginBottom="24dp" />
+        android:textStyle="bold" />
 
     <!-- TABULEIRO -->
     <GridLayout
         android:id="@+id/gameGrid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rowCount="3"
-        android:columnCount="3"
+        android:layout_gravity="center"
         android:alignmentMode="alignMargins"
-        android:useDefaultMargins="true"
-        android:padding="10dp"
         android:background="@android:color/white"
-        android:layout_gravity="center">
-    </GridLayout>
-
+        android:columnCount="3"
+        android:padding="10dp"
+        android:rowCount="3"
+        android:useDefaultMargins="true"></GridLayout>
 
 
 </LinearLayout>
