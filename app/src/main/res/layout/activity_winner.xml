@@ -1,39 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="24dp">
+    android:background="#F5F5F5">
 
-    <TextView
-        android:id="@+id/winnerText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Parabéns"
-        android:textSize="24sp"
-        android:textStyle="bold"/>
+    <!-- Imagem de fundo inclinada e parcialmente transparente -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/scoreText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Você Ganhou!\nO Jogo"
-        android:textSize="22sp"
-        android:gravity="center"
-        android:layout_marginTop="16dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/_97298"
+            android:scaleType="centerInside"
+            android:alpha="0.15"
+            android:rotation="5" />
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/player1Points"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Player 1: 0 PTS"
-        android:layout_marginTop="24dp"/>
+    <!-- Barra superior com seta de voltar -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
 
-    <TextView
-        android:id="@+id/player2Points"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Player 2: 0 PTS" />
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_back"
+            android:contentDescription="Voltar" />
+    </RelativeLayout>
 
-</LinearLayout>
+    <!-- Conteúdo principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topBar"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:weightSum="10">
+
+        <!-- Espaço superior (20% da altura) -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5" />
+
+        <!-- Texto de parabéns (10% da altura) -->
+        <TextView
+            android:id="@+id/winnerText"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="PARABÉNS"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- Espaço (5% da altura) -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <!-- Círculo vermelho com texto do jogador (15% da altura) -->
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="1.5">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Player 1"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+        <!-- Espaço (5% da altura) -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <!-- Texto de vitória (15% da altura) -->
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="Você Ganhou!\nO Jogo"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- Espaço (15% da altura) -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5" />
+
+        <!-- Barra de pontuação (10% da altura) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Player 1 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/player_score_background"
+                android:padding="8dp"
+                android:layout_marginEnd="16dp">
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:background="@drawable/circle_red_small"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/player1Points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Player 1"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <!-- VS -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VS"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Player 2 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/player_score_background"
+                android:padding="8dp"
+                android:layout_marginStart="16dp">
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:background="@drawable/circle_blue_small"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/player2Points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Player 2"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Espaço inferior (10% da altura) -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9" />
+    </LinearLayout>
+</RelativeLayout>
