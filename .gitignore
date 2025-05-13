@@ -1,0 +1,23 @@
+# Ignora todas as pastas de build
+/build/
+/*/build/
+
+# Android Studio
+.gradle/
+.idea/
+local.properties
+*.iml
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Compilados
+*.class
+*.jar
+
+# NDK
+.cxx/
+.externalNativeBuild/
