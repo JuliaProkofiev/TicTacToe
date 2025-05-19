@@ -63,11 +63,14 @@ class JogoActivity : Activity() {
 
                             val intent = Intent(this, WinnerActivity::class.java)
                             val vencedor = if (jogadorAtual == "X") "Player 1" else "Player 2"
-                            intent.putExtra("winner", vencedor)
+                            intent.putExtra("WINNER", vencedor)
                             startActivity(intent)
                             finish()
                         } else if (jogadas == 9) {
-                            Toast.makeText(this, "Empate!", Toast.LENGTH_LONG).show()
+                            val intent = Intent(this, WinnerActivity::class.java)
+                            intent.putExtra("WINNER", "EMPATE")
+                            startActivity(intent)
+                            finish()
                         } else {
                             jogadorAtual = if (jogadorAtual == "X") "O" else "X"
                             turnoText.text = "Turno: Jogador ${if (jogadorAtual == "X") "1 (X)" else "2 (O)"}"

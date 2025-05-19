@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5">
+    android:background="#F5F5F5"
+    android:fitsSystemWindows="true">
 
     <!-- Imagem de fundo inclinada e parcialmente transparente -->
     <FrameLayout
@@ -27,11 +28,13 @@
         android:paddingEnd="16dp">
 
         <ImageView
+            android:id="@+id/btnVoltar"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_centerVertical="true"
             android:src="@drawable/ic_back"
-            android:contentDescription="Voltar" />
+            android:contentDescription="Voltar"
+            android:onClick="voltarParaInicio" />
     </RelativeLayout>
 
     <!-- Conteúdo principal -->
@@ -74,11 +77,13 @@
             android:layout_weight="1.5">
 
             <View
+                android:id="@+id/winnerCircle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/circle_red" />
 
             <TextView
+                android:id="@+id/winnerIcon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
