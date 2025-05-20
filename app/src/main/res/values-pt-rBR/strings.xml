@@ -8,5 +8,11 @@
     <string name="mode">2 Jogadores</string>
     <string name="player_turn">Turno: Jogador %1$d (%2$s)</string>
     <string name="play_again">Jogar novamente</string>
-    <string name="Turn">Turno Jogador 1</string>
+    <string name="turn">Turno Jogador 1</string>
+    <string name="congratulations">Parabéns!</string>
+    <string name="player_1">Jogador 1</string>
+    <string name="player_2">Jogador 2</string>
+    <string name="winner_text">Você venceu\no jogo!</string>
+    <string name="vs">VS</string>
+    <string name="back">Voltar</string>
 </resources>

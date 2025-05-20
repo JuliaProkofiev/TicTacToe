@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:background="#626161"
-        android:text="@string/Turn"
+        android:text="@string/turn"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold" />

@@ -7,5 +7,12 @@
     <string name="mode">2 Players</string>
     <string name="player_turn">Turn: Player %1$d (%2$s)</string>
     <string name="play_again">Play again</string>
-    <string name="Turn">Turn Player 1</string>
+    <string name="turn">Turn Player 1</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="winner_text">You won\nthe game!</string>
+    <string name="vs">VS</string>
+    <string name="back">Back</string>
+
 </resources>

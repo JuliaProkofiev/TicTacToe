@@ -33,7 +33,7 @@
             android:layout_height="24dp"
             android:layout_centerVertical="true"
             android:src="@drawable/ic_back"
-            android:contentDescription="Voltar"
+            android:contentDescription="@string/back"
             android:onClick="voltarParaInicio" />
     </RelativeLayout>
 
@@ -59,7 +59,7 @@
             android:layout_height="0dp"
             android:layout_weight="0.8"
             android:gravity="center"
-            android:text="PARABÉNS"
+            android:text="@string/congratulations"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#000000" />
@@ -87,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Player 1"
+                android:text="@string/player_1"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp" />
         </FrameLayout>
@@ -105,7 +105,7 @@
             android:layout_height="0dp"
             android:layout_weight="1.5"
             android:gravity="center"
-            android:text="Você Ganhou!\nO Jogo"
+            android:text="@string/winner_text"
             android:textSize="26sp"
             android:textStyle="bold"
             android:textColor="#000000" />
@@ -144,7 +144,7 @@
                     android:id="@+id/player1Points"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Player 1"
+                    android:text="@string/player_1"
                     android:textColor="#000000" />
             </LinearLayout>
 
@@ -152,7 +152,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="VS"
+                android:text="@string/vs"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -176,7 +176,7 @@
                     android:id="@+id/player2Points"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Player 2"
+                    android:text="@string/player_2"
                     android:textColor="#000000" />
             </LinearLayout>
         </LinearLayout>
